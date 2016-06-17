@@ -116,10 +116,31 @@ span.author {
 
 .copy {
   padding-top: 7.4px;
+  padding-bottom: 2.5px;
   font-size: 18px;
   line-height: 162%;
 }
 
+blockquote {
+  width: 100%;
+  height: 49px;
+  border-left: 2px solid lightgray;
+  font-size: 31px;
+  margin: 6px;
+  padding-top: 12px;
+  padding-left: 17px;
+  padding-bottom: 5px;
+  letter-spacing: -0.1px;
+  word-spacing: -5px;
+  text-transform: uppercase;
+  vertical-align: middle;
+  color: #106DB3;
+}
+}
+
 .sidebar {
-    display: inline-block;
+}
+
+.popular-posts {
+
 }
