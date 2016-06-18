@@ -1,0 +1,253 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+}
+header {
+    background: linear-gradient( rgba(26, 89, 145, 0.5), rgba(26, 89, 145, 0.5)), url('waveheader.jpg');
+    height: 575px;
+    width: 100%;
+}
+.heading {
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    color: #083451;
+}
+.logo {
+    display: inline-block;
+    margin: 0;
+    font-size: 18px;
+    padding-left: 11.5%;
+    font-family: 'Open Sans', sans-serif;
+}
+img.logo {
+    width: 48px;
+    float: left;
+    padding-top: 0.8%;
+}
+div.logo {
+    padding: 0 13px;
+    letter-spacing: -0.4px;
+    margin-top: 1.6%
+}
+.top-nav {
+    display: inline-block;
+    float: right;
+    padding-top: 1.3%;
+    padding-right: 8.4%;
+    font-size: 20px;
+}
+
+.fa-search {
+    font-size: 17px;
+    padding-top: 4px;
+    padding-left: 4px;
+    padding-right: 10px;
+}
+
+.nav01 {
+    list-style-type: none;
+    margin: 0;
+}
+
+li {
+  list-style-type: none;
+  display:inline-block;
+}
+
+.search {
+  padding-left: 2px;
+}
+.nav01:after {
+    content: "";
+}
+.top-button {
+    padding-right: 10px;
+}
+
+.hero {
+    text-align: center;
+    padding-top: 6%;
+    font-size: 116px;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 0px;
+    margin-left: 57px;
+    font-weight: 400;
+    letter-spacing: -5px;
+    color: white;
+}
+.subtitle {
+    text-transform: none;
+    padding-top: 2px;
+    font-size: 17px;
+    margin-top: -1.7%;
+    margin-left: 4.2%;
+    letter-spacing: normal;
+    color: black
+}
+main {
+    padding-top: 71px;
+    padding-left: 179px;
+}
+
+section {
+  margin-right: 0px;
+  display: inline-block;
+}
+
+h2 {
+    font-size: 70px;
+    margin: 0;
+    line-height: 108%;
+    font-weight: lighter;
+    letter-spacing: -0.5px;
+    word-spacing: -1px;
+}
+
+.author {
+    padding-left: 0.8%;
+    display: inline-block;
+    font-size: 15px;
+    vertical-align: middle;
+}
+
+img.author {
+  width: 25px;
+  border-radius: 50%;
+}
+
+div.author {
+  padding: 13px 3px;
+  letter-spacing: -0.7px;
+}
+
+span.author {
+    padding-left: 14px;
+    letter-spacing: normal;
+    vertical-align: text-bottom;
+    font-size: 14px;
+    letter-spacing: 0.2px;
+}
+
+.main-info {
+    width: 675px;
+}
+
+.copy {
+  padding-top: 7.4px;
+  padding-bottom: 2.5px;
+  font-size: 18px;
+  line-height: 162%;
+}
+
+blockquote {
+  width: 100%;
+  height: 49px;
+  border-left: 2px solid lightgray;
+  font-size: 31px;
+  margin: 6px;
+  padding-top: 12px;
+  padding-left: 17px;
+  padding-bottom: 5px;
+  letter-spacing: -0.1px;
+  word-spacing: -5px;
+  text-transform: uppercase;
+  vertical-align: middle;
+  color: #106DB3;
+}
+
+.copy-buttons {
+  padding-left: 4px;
+  text-align: center;
+
+}
+
+.copy-buttons li {
+  float: left;
+    height: 28px;
+    font-size: 15px;
+    padding-top: 5px;
+    color: white;
+}
+
+.post-icon {
+    float: left;
+    background-color: #5E686F;
+    color: white;
+    width: 36px;
+    height: 26px;
+    font-size: 18px;
+    padding-top: 7px;
+  }
+
+.comment-button {
+  padding-left: 13px;
+    padding-right: 8px;
+    margin-right: 11px;
+    background-color: #A3B3BF;
+
+}
+.read-button {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-right: 11px;
+  background-color: #A3B3BF;
+
+}
+.post-icon2 {
+    float: left;
+    width: 35px;
+    height: 24px;
+    background-color: #083451;
+    color: white;
+    padding-top: 9px;
+    font-size: 17px;
+    padding-left: 2px;
+}
+
+.share-button {
+  padding-left: 13px;
+  padding-right: 13px;
+  background-color: #106DB3;
+}
+
+.sidebar {
+    display: inline-block;
+    width: 300px;
+    padding-left: 89px;
+    padding-top: 20px;
+    vertical-align: top;
+    text-align: center;
+}
+
+img.social-media {
+  border-radius: 50%;
+}
+
+label {
+
+}
+
+.sidebar-info {
+  text-align: left;
+
+}
+
+.popular-header {
+  text-align: center;
+}
+
+.popular-posts {
+  padding-left: 0px;
+}
+
+.popular-posts ul {
+  margin-left: -40px;
+
+}
+
+.popular-posts li {
+  float: left;
+  width: 341.5px;
+  height: 330px;
+  background-color: gray;
+}
