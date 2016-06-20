@@ -23,6 +23,7 @@ img.logo {
     width: 48px;
     float: left;
     padding-top: 0.7rem;
+
 }
 div.logo {
     padding: 0 0.7rem;
@@ -32,8 +33,9 @@ div.logo {
 .top-nav {
   display: inline-block;
   float: right;
-  padding-top: 1rem;
+  margin-top: 1rem;
   padding-right: 9.5rem;
+  padding-top: 0px;
   font-size: 1.3rem;
   letter-spacing: -0.5px;
 }
@@ -45,7 +47,7 @@ div.logo {
 
 .fa-search {
   font-size: 1.2rem;
-  padding-top: 0.4rem;
+  margin-top: 0.3rem;
   padding-left: 0.3rem;
   padding-right: 0.3rem;
 }
@@ -280,13 +282,15 @@ ul.social-media {
   background: linear-gradient( rgba(26, 89, 145, 0.75), rgba(26, 89, 145, 0.75)), url('http://placekitten.com/297/320');
   width: 297px;
   height: 320px;
+  margin: 0 auto;
+  margin-right: 1rem;
 }
 
 .ad-label {
   text-align: right;
   display: block;
   font-size: 0.9rem;
-  padding-top: 0.5rem;
+  margin-top: 0.5rem;
     padding-right: 0.2rem;
 }
 
